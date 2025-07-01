@@ -9,7 +9,7 @@ export const ShopContext = createContext();
 const ShopContextProvider = (props) => {
     const currency = '₹';
     const delievery_fee = 50
-    const backendUrl = import.meta.env.VITE_BACKEND_URL
+    const backendUrl = "https://commercial-website-pns1.onrender.com"
     const [search, setSearch] = useState('');
     const [products, setProducts] = useState([]);
     const [showSearch, setShowSearch] = useState(false);
