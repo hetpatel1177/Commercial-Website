@@ -1,5 +1,6 @@
 import React from 'react'
 import { assets } from '../assets/frontend_assets/assets'
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
@@ -19,7 +20,7 @@ const Hero = () => {
             </div>
         </div>
         {/* {Hero Right Side} */}
-        <img className='w-full sm:w-1/2' src={assets.hero_img} alt="" />
+        <Link to="/collection" className='w-full sm:w-1/2' ><img src={assets.hero_img} alt="" /></Link>
     </div>
   )
 }
