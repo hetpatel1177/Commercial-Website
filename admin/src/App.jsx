@@ -8,7 +8,7 @@ import Orders from './pages/Orders'
 import Login from './components/Login'
 import { ToastContainer } from 'react-toastify';
 
-export const backendUrl = "https://commercial-website-pns1.onrender.com"
+export const backendUrl = "https://commercial-website-new.onrender.com"
 export const currency = "₹"
 const App = () => {
   const [token, setToken] = useState(localStorage.getItem('token')?localStorage.getItem('token'):'')
