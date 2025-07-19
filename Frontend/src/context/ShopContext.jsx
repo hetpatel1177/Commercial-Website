@@ -9,7 +9,7 @@ export const ShopContext = createContext();
 const ShopContextProvider = (props) => {
     const currency = '₹';
     const delievery_fee = 50
-    const backendUrl = "https://sutrika-backend-het.onrender.com"
+    const backendUrl = "https://commercial-website-new.onrender.com"
     const [search, setSearch] = useState('');
     const [products, setProducts] = useState([]);
     const [showSearch, setShowSearch] = useState(false);
